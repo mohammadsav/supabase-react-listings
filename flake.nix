@@ -15,7 +15,7 @@
       in {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
-            vscodium          # Preffered IDE
+            vscodium        # Preffered IDE
             nodejs_20       # For React, JS, npm
             yarn            # Optional but often used with React
             supabase-cli    # For interacting with Supabase
